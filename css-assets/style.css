@@ -1,0 +1,98 @@
+body{
+    background-image: url(https://i.pinimg.com/736x/f5/4d/f9/f54df995f46abca1cf73dc7b1f9a0813.jpg) ;
+    background-size: contain;
+}
+
+
+/*Accordion Styles*/
+.accordion-btn{
+    width: 100%;
+    padding: 12px;
+    text-align: left;
+    background: #ebe5e5;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-bottom: 1px solid #121010;
+    transition: backround 0.3s;
+}
+
+.accordion-btn:hover{
+    background: #ca1616;
+}
+
+.accordion-content{
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 12px;
+    background: #109f26;
+    transition: max-height 0.3s ease;
+}
+
+/*Sacpes styling*/
+.scapes img{
+    width: 200px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: transform 0.3s;
+    border-radius: 12px;                  
+    
+}
+
+.scapes img:hover{
+    transform: scale(1.05);
+}
+
+/*Light box Modal*/
+.lightbox{
+    position: fixed;
+    display: none;
+    top: 0; left:0;
+    width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.05);
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+.lightbox img{
+    max-width: 80%;
+    max-height: 80%;
+    border-radius: 10px;
+}
+
+.lightbox-close{
+    position: absolute;
+    top: 20px; right: 30px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+/*Heading*/
+h1,h2,h3{
+    margin: 20px;
+    color:#f83f06;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+}
+
+/*paragraph*/
+p{
+    font-size: 18px;
+    margin: 12px;
+    color: #ebe5e5;
+    background-color: #9f1212
+}
+/*Container for content blocks*/
+.container {
+    width: ;                          
+    margin: ;                     
+    background-color: rgba(21, 53, 103, 0.7); 
+    padding: 20px;                     
+    box-shadow: 0 4px 10px rgba(124, 8, 8, 0); 
+}
+
+
